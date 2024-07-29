@@ -12,7 +12,7 @@ Attributes Class
 So sánh ID và class
 	#			ID	Class
 Sử dụng nhiều / một phần tử	❌	✅
-Tái sử dụng / một trang	❌	✅
+Tái sử dụng / một trang		❌	✅
 
 Quy tắc đặt tên ID và Class
 1) KO được bắt đầu bằng 1 con số 
