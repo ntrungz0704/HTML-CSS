@@ -1,0 +1,23 @@
+ID và CLASS
+
+Attributes ID
++ Mỗi phần tử chỉ có thể có một ID
++ Mỗi ID là duy nhất trong một trang (không có trường hợp từ 2 phần tử sử dụng chung một ID)
+
+Attributes Class
++ Có thể sử dụng nhiều class trên một phần tử
++ Có thể sử dụng cùng một class trên nhiều phần tử
+
+
+So sánh ID và class
+	#			ID	Class
+Sử dụng nhiều / một phần tử	❌	✅
+Tái sử dụng / một trang	❌	✅
+
+Quy tắc đặt tên ID và Class
+1) KO được bắt đầu bằng 1 con số 
+ví dụ
++ 1name   ❌
++ name1   ✅
+
+2) Phân biệt chữ hoa chữ thường

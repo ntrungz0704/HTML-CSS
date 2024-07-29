@@ -1,0 +1,6 @@
+Selector		Ví dụ		Giải thích
+*			*		Chọn tất cả thẻ
+element.class		p.intro		Chọn tất cả thẻ <p> có class intro ( viết liền vào nhau )
+element#id		p#intro		Chọn tất cả thẻ <p> có ID là intro ( viết liền vào nhau giống class)
+element, element	div, p		Chọn tất cả thẻ <div> và tất cả thẻ <p> ( nghĩa là muốn tác động vào nhiểu thẻ cùng lúc thay vì phải viết từng thẻ )
+.class1.class2		.name1.name2	Chọn tất cả các thẻ có cả class name1 và name2

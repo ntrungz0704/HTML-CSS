@@ -1,0 +1,21 @@
+Pseudo Classes ( lớp giả )
+
+Selector	Ví dụ		Giải thích
+:hover		p:hover		Chọn các thẻ <p> khi di chuột qua
+:active		a:active	Chọn các thẻ <a> khi nhấn chuột xuống
+:link		a:link		Chọn các thẻ <a> có liên kết chưa truy cập
+:visited	a:visited	Chọn các thẻ <a> có liên kết đã truy cập
+:empty		div:empty	Chọn các thẻ <div> không có nội dung
+:target		#home:target	Chọn thẻ có id="home" khi trên URL có hash tương ứng. VD: https://domain.com/#home
+
+Ví dụ : 
+h1:hover {
+  color: red;
+}
+
+
+Cách ấn 2 lần vào dòng chữ mà ko bị bôi đen
+ví dụ
+h1 {
+	user-select: none;
+}

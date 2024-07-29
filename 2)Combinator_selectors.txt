@@ -1,0 +1,6 @@
+Combinator selectors ( bộ chọn kết hợp )
+Selector		Ví dụ		Giải thích
+element element		div p		Chọn tất cả thẻ <p> nằm trong thẻ <div>
+element > element	div > p		Chọn tất cả thẻ <p> là con trực tiếp của thẻ <div>
+element + element	div + p		Chọn một thẻ <p> đầu tiên đứng ngay sau thẻ <div>
+element1 ~ element2	div ~ p		Chọn tất cả thẻ <p> đứng sau thẻ <div>

@@ -1,0 +1,15 @@
+Selector		Ví dụ			Giải thích
+:first-child		p:first-child		Chọn các thẻ <p> là thẻ con đầu tiên
+:last-child		p:last-child		Chọn các thẻ <p> là thẻ con cuối cùng
+:nth-child(n)		p:nth-child(2)		Chọn các thẻ <p> là thẻ con thứ hai
+:nth-last-child(n)	p:nth-last-child(2)	Chọn các thẻ <p> là thẻ con thứ hai, tính từ cuối lên
+:only-child		p:only-child		Chọn các thẻ <p> là thẻ con duy nhất
+
+ở phần nth nếu muốn chọn tất cả số lẻ và số chẵn
++ odd ( lẻ )
++ even ( chẵn )
+
+ví dụ
+.box p:nth-child(odd){
+  color:red;
+}

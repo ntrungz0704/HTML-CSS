@@ -1,0 +1,5 @@
+Simple selectors
+Selector	Ví dụ		Giải thích
+element		p		Chọn tất cả thẻ <p>
+#id		#header		Chọn thẻ có id="header"
+.class		.title		Chọn tất cả các thẻ có class="title"
