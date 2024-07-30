@@ -1,0 +1,5 @@
+Selector 	:not(selector)	
+Ví dụ	 	.highlight:not(p)	
+Giải thích 	Chọn các thẻ có class="highlight" và không phải là thẻ <p>
+
+:not(selector) được hiểu là lớp giả phủ định, các selector bên trong cặp dấu ngoặc đơn sẽ bị loại trừ và CSS sẽ không được áp dụng cho các selector đó.
